@@ -1,0 +1,41 @@
+body{
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+#body-section {
+    background-image: url(station.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+}
+
+#increment-el {
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: medium;
+    width: 200px;
+    background-color: green;
+    color: white
+}
+
+#save-el {
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: medium;
+    width: 200px;
+    background-color: blue;
+    color: white;
+}
